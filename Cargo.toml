@@ -1,0 +1,12 @@
+[package]
+name = "quillcad"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+bevy = "0.13.2"
+bevy_panorbit_camera = "0.14.0"
+# UIライブラリ bevy_egui のバージョンを bevy 0.13系と互換性のある 0.27.0 に修正
+bevy_egui = "0.27.0"
